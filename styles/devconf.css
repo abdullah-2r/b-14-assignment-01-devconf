@@ -415,3 +415,12 @@ header .hero {
     } 
 }
 /* -----------------------------------Sponsor Section end----------------------------- */
+
+footer {
+    background-color: rgba(13, 27, 42, 1);
+    color: rgba(255, 255, 255, 0.4);
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
