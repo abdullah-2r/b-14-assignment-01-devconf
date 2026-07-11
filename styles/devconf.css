@@ -34,6 +34,12 @@ main {
     text-align: center;
 }
 
+.primary-description {
+    font-size: 12px;
+    color: rgba(87, 87, 87, 1);
+
+}
+
 /* ------------------------------Navbar start------------------------------ */
 
 nav {
@@ -117,6 +123,11 @@ header .hero {
 .speaker-section {
     margin-bottom: 150px;
 }
+
+.speaker-section h1 {
+    font-size: 48px;
+}
+
 .speaker-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -131,37 +142,279 @@ header .hero {
     justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
-border: 1px solid rgba(229, 231, 235, 1);
-border-radius: 10px;
-   background: rgba(255, 255, 255, 1);
-    overflow:hidden;
+    border: 1px solid rgba(229, 231, 235, 1);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    overflow: hidden;
 }
 
 
-.speaker-box  img{
-    width:100%;
-    
-    
+.speaker-box img {
+    width: 100%;
+
+
 }
-.speaker-bio{
-    padding:17px;
+
+.speaker-bio {
+    padding: 17px;
     line-height: 27px;
 }
+
 .speaker-skill {
     color: rgba(37, 99, 235, 1);
     font-size: 10px;
-    font-weight:600;
+    font-weight: 600;
 }
+
 .speaker-name {
     font-size: 17px;
     font-weight: 700;
-    color:rgba(13, 27, 42, 1);
+    color: rgba(13, 27, 42, 1);
 }
-.speaker-description {
-    font-size: 12px;
-    color:rgba(87, 87, 87, 1);
-    
-}
+
 
 
 /* ---------------------------------speaker section end-------------------------------- */
+/*------------------------------------Pricing Section start---------------------------  */
+.pricing-section h1 {
+    margin-bottom: 12px;
+    font-size: 48px;
+}
+
+.pricing-description {
+    color: rgba(87, 87, 87, 1);
+    font-size: 16px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+
+
+.pricing-card-basic {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border: 1px solid rgba(229, 231, 235, 1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.pricing-category {
+    color: rgba(136, 136, 136, 1);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.pricing-card-basic .price {
+    color: rgba(13, 27, 42, 1);
+    font-size: 44px;
+}
+
+.total-user {
+    color: rgba(136, 136, 136, 1);
+    font-size: 13px;
+}
+
+.card-break-line {
+    background: rgba(229, 231, 235, 1);
+    margin: 17px 0px;
+}
+
+.advance-features {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 16px;
+    margin-bottom: 15px;
+}
+
+.advance-features li {
+    color: rgba(51, 51, 51, 1);
+    font-size: 14px;
+}
+
+.advance-features li::marker {
+    color: rgba(37, 99, 235, 1);
+}
+
+.basic-btn {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(37, 99, 235, 1);
+    padding: 11px 0px 11px 0px;
+    border: 1px solid rgba(37, 99, 235, 1);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.pricing-card-pro {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(13, 27, 42, 1);
+}
+
+.pricing-category-pro {
+    color: rgba(147, 197, 253, 1);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.pricing-card-pro .price {
+    color: rgba(255, 255, 255, 1);
+    font-size: 44px;
+}
+
+.total-user-pro {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+
+.card-break-line {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 17px 0px;
+}
+
+.advance-features-pro {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 16px;
+    margin-bottom: 15px;
+}
+
+.advance-features-pro li {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+
+.advance-features-pro li::marker {
+    color: rgba(96, 165, 250, 1);
+}
+
+.pro-btn {
+    background-color: rgba(37, 99, 235, 1);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 11px 0px 11px 0px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------- */
+.team-btn {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(13, 27, 42, 1);
+    padding: 11px 0px 11px 0px;
+    border: 1px solid rgba(13, 27, 42, 1);
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* -----------------------------------Pricing Section end---------------------------- */
+
+/* -----------------------------------Sponsor Section start--------------------------- */
+.sponsor-section {
+    margin: 120px 0 80px;
+    padding: 42px 32px;
+    border: 2px solid rgba(229, 231, 235, 1);
+      /* border: 1px solid rgb(97, 130, 195); */
+    border-radius: 24px;
+    background: linear-gradient(135deg, rgba(248, 250, 252, 1) 0%, rgba(240, 249, 255, 1) 100%);
+}
+
+.sponsor-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.sponsor-eyebrow {
+    color: rgba(37, 99, 235, 1);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 10px;
+}
+
+.sponsor-header h2 {
+    font-size: 36px;
+    color: rgba(13, 27, 42, 1);
+    margin-bottom: 12px;
+}
+
+.sponsor-description {
+    color: rgba(87, 87, 87, 1);
+    max-width: 680px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.sponsor-card {
+    padding: 24px 20px;
+    border: 1px solid rgba(229, 231, 235, 1);
+    border-radius: 16px;
+    /* background: rgba(255, 255, 255, 1); */
+    background: rgba(63, 110, 167, 0.705);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 110px;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
+}
+
+.sponsor-card strong {
+    font-size: 20px;
+    /* color: rgba(13, 27, 42, 1); */
+    color: rgba(255, 255, 255, 1);
+}
+
+.sponsor-card span {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+    .sponsor-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 640px) {
+    .sponsor-section {
+        padding: 32px 20px;
+    }
+
+    .sponsor-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sponsor-header h2 {
+        font-size: 28px;
+    }
+}
+/* -----------------------------------Sponsor Section end----------------------------- */
