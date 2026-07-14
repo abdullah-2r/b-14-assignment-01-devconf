@@ -333,7 +333,7 @@ header .hero {
  .sponsor-section {
     margin: 120px 0 80px;
     padding: 42px 32px;
-    border: 2px solid rgba(229, 231, 235, 1);
+    border-top: 1px solid rgba(229, 231, 235, 1);
     border-radius: 24px;
     background: linear-gradient(135deg, rgba(248, 250, 252, 1) 0%, rgba(240, 249, 255, 1) 100%);
 }
@@ -372,10 +372,10 @@ header .hero {
 }
 
 .sponsor-card {
-    padding: 24px 20px;
-    border: 1px solid rgba(229, 231, 235, 1);
+    padding: 24px 18px;
+    border: 2px solid rgba(229, 231, 235, 1);
     border-radius: 16px;
-    background: rgba(63, 110, 167, 0.705);
+    background: rgba(66, 99, 143, 0.634);
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -415,12 +415,64 @@ header .hero {
     } 
 }
 /* -----------------------------------Sponsor Section end----------------------------- */
-
-footer {
+/* -----------------------------------Footer section start---------------------------- */
+.footer {
     background-color: rgba(13, 27, 42, 1);
-    color: rgba(255, 255, 255, 0.4);
-    height: 110px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 30px 24px 28px;
+    color: rgba(255, 255, 255, 0.9);
 }
+
+.footer-content {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-logo {
+    height: 40px;
+    width: 100%;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-media-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.social-media-link svg {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-divider {
+    max-width: 1150px;
+    margin: 20px auto 16px;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.footer-copyright {
+    max-width: 1150px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+/*------------------------------------ Footer Section end-------------------------- */
