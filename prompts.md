@@ -1,1 +1,2 @@
 Generate a relevant sponsor section after the pricing section related with developer conference. Design the sponsor section maintaining the ui. Implement html & css only .
+Add relevant offical icons for each sponsors. Make icons transparent maintaining the ui.
